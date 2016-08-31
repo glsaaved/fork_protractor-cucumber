@@ -213,3 +213,5 @@ Desired Capabilities passed to Selenium; Arbitrary object whose keys are capabil
 ### uniqueBrowser
 Specify if all scenarios are running in a different instance of 'browser'(false) or just in a unique 'browser' (true)
 
+##Important:
+If you use the uniqueBrowser feature, the last scenario in the features needs the tag `@final`, with this clean the resources and the instance of webdriver
